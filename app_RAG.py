@@ -13,7 +13,7 @@ st.set_page_config(page_title="Gemini PDF-Chatt")
 st.title("Chatta med PDF (via Google Gemini)")
 
 # Hämta API-nyckel från sidofältet för säkerhet
-api_key = st.sidebar.text_input("AIzaSyBOEsM0nE3iWo72EAz5b5QwO2UQqfsF9d0", type="password")
+api_key = st.sidebar.text_input("Ange din Google API här", type="password")
 
 # 2. Filuppladdning
 uploaded_file = st.file_uploader("Ladda upp en PDF", type="pdf")
